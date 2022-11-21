@@ -27,5 +27,5 @@ def off():
 
 
 
-
-app.run(port=5500)
+if __name__=='__main__':
+     app.run(debug=True)
